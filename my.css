@@ -8,23 +8,27 @@
 
 body{
   background: url(https://wallpapers.com/images/hd/programming-a-laptop-wuze1bxup48cr0bs.jpg);
-  background-size: 1500px 700px;
   background-repeat: no-repeat;
+  background-size: 2000px 950px;
   background-color: navy;
 }
 
-
+@media(max-width:1500px){
 nav{
     display: flex;
-    width: 90%;
-    margin-left: 100px;
+    width: 1850px;
+    margin-left: -200px;
+    margin-top: -55px;
     align-items: center;
     justify-content: space-between;
 }
+}
 
-nav .logo{
-    width: 120px;
-
+nav ul{
+  margin-left: 1450px;
+  width: 500px;
+  margin-top: -65px;
+ 
 }
 nav ul li {
     display: inline-block;
@@ -116,14 +120,11 @@ button{
  }
 #skills button{
   margin-top: 50px;
-  margin-left: 90px;
+  margin-left: 280px;
   font-size: large;
   font-weight: 600;
   width: 15%;
  }
-
- 
-
 
  .skill{
   margin-left: 710px;
@@ -136,18 +137,6 @@ button{
   border-top-right-radius: 0;
  }
 
-
- #contact button{
-  margin-left: 679px;
-  margin-top: 100px; 
-  color: azure;
-  font-size: large;
-  font-weight: 600;
-  width: 10%;
- }
- 
- 
- 
  .icon-div{
   margin-top: 5%;
   display: flex;
@@ -184,3 +173,51 @@ button{
 footer p{
   color: aliceblue;
 }
+
+@media(max-width:1500px){
+#sni{
+  margin-top: 650px;
+  width: 500px;
+}
+}
+
+@media(max-width:1500px){
+#cnt{
+  margin-left: 150px;
+  width: 820px;
+}
+}
+@media(max-width:1500px){
+#im{
+  margin-left: 200px;
+  width: 350px;
+}
+}
+@media(max-width:1500px){
+#bt{
+  width: 700px;
+  margin-top: 50px;
+}
+}
+@media(max-width:1500px){
+#ic button{
+  width: 250px;
+  margin-top: -50px;
+}
+}
+@media(max-width:1500px){
+#fotr{
+  margin-left: 600px;
+  width: 500px;
+  margin-top: 90px;
+}
+}
+@media(max-width:1500px){
+.pf{
+  margin-left: 500px;
+  width: 700px;
+}
+}
+
+  
+  
